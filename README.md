@@ -3,8 +3,11 @@
 ## Why?
 I had an old Galaxy SIII mini lying around in my drawer and didn't want to throw it away, since it's in good condition.
 Even though this device is now over 10 years old, and we have phones more powerful than a dozen of SIII minis today in 2024, it is still useful.
-... At least more useful than on a landfill! 😄  
+... At least more useful than on a landfill! 😄
+
 I wanted to breathe a second life into this antiquity.
+While I tried to do this, I noticed, most guides are super scattered on many forums and outdated, and they provided conflicting packages.  
+With this repo and guide, you can replicate my process quickly and don't have to do the same annoying work as I do.  
 
 ### You can use old Android phones for example as:
 * Raspberry Pi alternative
@@ -72,4 +75,55 @@ For that, switch to the "Flash"-tab and
 If you go into the recovery menu next time, either by ´adb reboot recovery´ or ´POWER BUTTON + HOME + VOL-UP´, you will boot into the new recovery mode!
 ![PXL_20240119_075050279](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/f94e6e28-98d8-4de8-a2e5-6bb17b0caaea)
 
-# WIP, to be continued
+
+## Step 2: Flashing LineageOS
+### Get the files
+They are attached in this repo.
+Download and copy them to the SD-card. These are the ones I used, and they work.
+Just copy the lineage.zip and GApps-pico.zip with the SD-adapter plugged in your PC.
+
+### Boot into recovery (TWRP)
+Do this either by ´adb reboot recovery´ (if the phone is on) or ´POWER BUTTON + HOME + VOL-UP´ if off.
+
+### Install LineageOS and the GApps
+Tap "Install" and select the copied Lineage-ROM and GApps-Zip.
+Confirm and wait.
+Don't worry, the phone is old and wants to take its' time! :)
+That will take about ~10 minutes
+![PXL_20240119_075050279](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/7070cb0e-2668-4c16-b2aa-b8990a72f693)
+![PXL_20240119_075157143](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/cf442a90-fea1-467e-a5f9-446a66256ea0)
+![PXL_20240119_075207791 MP](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/af9dba88-d2b9-49a7-9c35-dbf0f2f354e9)
+![PXL_20240119_075912093](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/a947e8a7-2320-4b0f-8387-4e5caf6925dd)
+
+### Wipe cache
+Every guide I watched said I should, so just do it.
+It will probably prevent some errors, idk...
+![PXL_20240119_075105325](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/d6354f00-da09-4ee7-92b1-51df2b75958a)
+
+### Reboot
+Almost done!
+![PXL_20240119_075942777](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/3ef97054-849c-4caa-8f65-d9c7fad1f5f1)
+The LineageOS-logo should now appear.
+![PXL_20240119_080007340](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/c99ec4b9-986a-4aa0-aa6e-2017621d745e)
+This will take *a long time*, so don't worry.
+Your device probably isn't bricked. The first boot will just take ~10 - 15 minutes. 
+(If it takes significantly longer, you're fucked. Sorry.)
+
+By now, it should be booted completely.
+![PXL_20240119_080927618 MP](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/c535ede4-148d-4077-ac8e-d7579a0435ae)
+**Aaaaand, you're done!**
+Now, just set up the phone the first time, just like you would another device.
+![PXL_20240119_081613396](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/f2b145fd-3980-48ac-b36b-8fb8f2a82711)
+
+# I hope this guide did help you!
+
+
+## Credits/ sources/ further ressources:
+- https://xdaforums.com/t/rom-7-1-2-lineageos-14-1-for-gt-i8190-gt-i9070-2017-06-09.3520752/
+- https://www.usp-forum.de/threads/samsung-galaxy-s3-mini-i8190-cyanogenmod-12-1-android-5-1-1-by-novafusion.122657/
+- https://www.usp-forum.de/threads/samsung-galaxy-s3-mini-i8190-lineage-14-1-android-7-1-2-installieren.136119/
+- https://opengapps.org/
+- https://xdaforums.com/t/recovery-golden-twrp-3-x.2748327/
+- http://andi34.github.io/recoveries_golden.html
+- https://eu.dl.twrp.me/golden/twrp-2.6.3.0-golden.tar.html (outdated, didn't work!)
+
