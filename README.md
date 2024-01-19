@@ -11,9 +11,9 @@ With this repo and guide, you can replicate my process quickly and don't have to
 
 ### You can use old Android phones for example as:
 * Raspberry Pi alternative
-* As Nextcloud server
-* For Octoprint
-* As remote shutter for digital cameras
+* As Nextcloud server (see [here](https://github.com/jancborchardt/nextcloud-scripts/blob/master/nextcloud-on-android.md)
+* For Octoprint [Octo4a, see here](https://github.com/feelfreelinux/octo4a)
+* As remote shutter for digital cameras [This for example](https://f-droid.org/de/packages/com.thibaudperso.sonycamera/)
 * Surveillance device at home
 * ... and much more!
 
@@ -116,8 +116,11 @@ By now, it should be booted completely.
 Now, just set up the phone the first time, just like you would another device.
 ![PXL_20240119_081613396](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/f2b145fd-3980-48ac-b36b-8fb8f2a82711)
 
+---
+
 # I hope this guide did help you!
 
+---
 
 ## Credits/ sources/ further ressources:
 - https://xdaforums.com/t/rom-7-1-2-lineageos-14-1-for-gt-i8190-gt-i9070-2017-06-09.3520752/
