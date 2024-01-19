@@ -1,8 +1,8 @@
 # General information/ FAQ/ Disclaimers:
 
 ## Why?
-I had an old Galaxy SIII mini lying around in my drawer and didn't want to throw it away, since it's in good condition.
-Even though this device is now over 10 years old, and we have phones more powerful than a dozen of SIII minis today in 2024, it is still useful.
+I had an old Galaxy SIII mini lying around in my drawer and didn't want to throw it away, since it's in good condition.  
+Even though this device is now over 10 years old, and we have phones more powerful than a dozen of SIII minis today in 2024, it is still useful.  
 ... At least more useful than on a landfill! 😄
 
 I wanted to breathe a second life into this antiquity.
