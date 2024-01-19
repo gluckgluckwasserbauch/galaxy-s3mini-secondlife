@@ -1,7 +1,7 @@
 # General information/ FAQ/ Disclaimers:
 
 ## Why?
-I had an old Galaxy SIII mini lying around in my drawer and didn't want to throw it away, since it's in good condition.  
+I had an old Galaxy S III mini lying around in my drawer and didn't want to throw it away, since it's in good condition.  
 Even though this device is now over 10 years old, and we have phones more powerful than a dozen of SIII minis today in 2024, it is still useful.  
 ... At least more useful than on a landfill! 😄
 
@@ -29,6 +29,7 @@ Don't use this phone as daily driver with personal data on it.
 ### Risks
 The procedure of flashing the custom Android distribution is risky. You might brick your device if not careful.
 While the loss wouldn't be big, I am not responsible for any damage for anyone following this guide.
+This guide only applies to the Samsung Galaxy SIII mini (GT-I8190).
 
 ---
 
