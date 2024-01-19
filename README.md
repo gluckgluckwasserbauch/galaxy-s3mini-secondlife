@@ -79,7 +79,10 @@ If you go into the recovery menu next time, either by ´adb reboot recovery´ or
 
 ## Step 2: Flashing LineageOS
 ### Get the files
-They are attached in this repo.
+Some of them are attached to this repo, some of them are too big for upload.
+Links:
+  - LOS: [here](https://files.usp-forum.de/GalaxyS3MiniI8190/lineage20170609.zip)
+  - OpenGApps Pico: [here](https://master.dl.sourceforge.net/project/opengapps/arm/20220215/open_gapps-arm-7.1-pico-20220215.zip?viasf=1)
 Download and copy them to the SD-card. These are the ones I used, and they work.
 Just copy the lineage.zip and GApps-pico.zip with the SD-adapter plugged in your PC.
 
