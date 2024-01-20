@@ -46,15 +46,15 @@ My battery was in good condition, and still I had only 40% battery left when fin
   Heimdall is a FOSS-alternative to Odin, a firmware tool developed by Samsung, which is closed source and Windows only.
   Using this alternative gives you the good conscience that there won't be any weird hidden things, and it will be installable on Linux/ MacOS too.
   #### Installation on Linux:
-  * Since I use Fedora Silverblue (image based system), I need to work in containers. Therefore, I used my Arch-container in Distrobox.
+  * Since I use Fedora Silverblue (image based system), I needed to work in containers. Therefore, I've used my Arch-container in Distrobox.
   If you use a traditional (mutable) distro, like Mint or Fedora Workstation, you can choose to install it on your host directly.
   If you use Mac or Windows, read the documentation of Heimdall in the link above.
-  * Install the packages: You'll need both ´heimdall´ and ´android-tools´. They might have a different name on your distro, but basically, you want Heimdall and ADB. If there's an error with "qt5 missing"-blablabla, install that too.
+  * Install the packages: You'll need both `heimdall` and `android-tools`. They might have a different name on your distro, but basically, you want Heimdall and ADB. If there's an error with "qt5-framework missing"-blablabla, install that too.
   ### Flash
   * Enable USB-debugging. You can find it under developer options and it allows you to modify the phone via your PC.
   * Connect your device and check the connection via ´adb devices´ in your terminal. The phone should be listed with its' ID.
-  * Plug in your phone and type ´adb reboot download´. This will put the phone into the download-mode.
-    If the phone is off, you can also press `POWER + HOME + VOL-UP´ instead.
+  * Plug in your phone and type `adb reboot download´. This will put the phone into the download-mode.
+    If the phone is off, you can also press `POWER + HOME + VOL-UP` instead.
   If there's a warning message, accept it ![PXL_20240118_132235138](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/ce53826b-60aa-4018-ba5f-46f124a15115)
   ![PXL_20240118_132402265](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/a11c1488-36c4-41c6-a2e8-54082af59d29)
   * Now, start Heimdall via `heimdall-frontend`. Don't use `sudo`. Many other guides say you should, but it will result in an error message.
@@ -82,7 +82,8 @@ My battery was in good condition, and still I had only 40% battery left when fin
   Some of them are attached to this repo, some of them are too big for upload.
     Links:
         - LOS: [here](https://files.usp-forum.de/GalaxyS3MiniI8190/lineage20170609.zip)
-        - OpenGApps Pico: [here](https://master.dl.sourceforge.net/project/opengapps/arm/20220215/open_gapps-arm-7.1-pico-20220215.zip?viasf=1)  
+        - OpenGApps Pico: [here](https://master.dl.sourceforge.net/project/opengapps/arm/20220215/open_gapps-arm-7.1-pico-20220215.zip?viasf=1)
+          You can also download other variants of the GApps [here](https://opengapps.org/), but I would recommend sticking to the minimalist one.
         
   Download and copy them to the SD-card. These are the ones I used, and they work.  
   Just copy the lineage.zip and GApps-pico.zip with the SD-adapter plugged in your PC.  
