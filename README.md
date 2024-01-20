@@ -53,7 +53,7 @@ My battery was in good condition, and still I had only 40% battery left when fin
   ### Flash
   * Enable USB-debugging. You can find it under developer options and it allows you to modify the phone via your PC.
   * Connect your device and check the connection via ´adb devices´ in your terminal. The phone should be listed with its' ID.
-  * Plug in your phone and type `adb reboot download´. This will put the phone into the download-mode.
+  * Plug in your phone and type `adb reboot download`. This will put the phone into the download-mode.
     If the phone is off, you can also press `POWER + HOME + VOL-UP` instead.
   If there's a warning message, accept it ![PXL_20240118_132235138](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/ce53826b-60aa-4018-ba5f-46f124a15115)
   ![PXL_20240118_132402265](https://github.com/gluckgluckwasserbauch/galaxy-s3mini-secondlife/assets/99470494/a11c1488-36c4-41c6-a2e8-54082af59d29)
